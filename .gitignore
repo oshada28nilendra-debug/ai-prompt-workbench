@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment Variables (NEVER COMMIT THIS)
+.env
+.env.local
+
+# Build outputs
+frontend/dist/
+frontend-build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
