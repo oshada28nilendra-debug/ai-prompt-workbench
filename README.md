@@ -81,4 +81,3 @@ npm run dev
 This project is licensed under the MIT License.
 
 ---
-a professional, welcoming look for anyone who visits your repository. How does that look to you?
