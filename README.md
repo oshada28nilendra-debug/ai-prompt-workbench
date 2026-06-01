@@ -15,32 +15,70 @@ A full-stack, developer-first workspace for AI Prompt Engineers and Digital Arti
 
 ## 🚀 Local Setup
 
-### 1. Clone the repository
-\`\`\`bash
+Follow these steps to get the project running on your local machine.
+
+### 1. Prerequisites
+
+Ensure you have the following installed:
+
+* [Node.js](https://nodejs.org/) (v16 or higher)
+* [MongoDB](https://www.mongodb.com/) (running locally or via Atlas)
+
+### 2. Clone the Repository
+
+Open your terminal and run:
+
+```bash
 git clone https://github.com/oshada28nilendra-debug/ai-prompt-workbench.git
 cd ai-prompt-workbench
-\`\`\`
 
-### 2. Setup the Backend
-\`\`\`bash
+```
+
+### 3. Backend Setup
+
+Navigate to the backend folder, install dependencies, and configure your environment:
+
+```bash
 cd backend
 npm install
-\`\`\`
-Create a `.env` file in the `backend` folder and add:
-\`\`\`env
+
+```
+
+* Create a file named `.env` inside the `backend` folder.
+* Add the following variables to that file:
+```text
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/promptDB
-\`\`\`
-Start the server:
-\`\`\`bash
-node server.js
-\`\`\`
 
-### 3. Setup the Frontend
-Open a new terminal window:
-\`\`\`bash
+```
+
+
+
+```
+*   Start the server:
+    ```bash
+    node server.js
+
+```
+
+### 4. Frontend Setup
+
+Open a **new** terminal window and run:
+
+```bash
 cd frontend
 npm install
 npm run dev
-\`\`\`
-Navigate to `http://localhost:5173` in your browser.
+
+```
+
+* Your application will be available at: `http://localhost:5173`
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+a professional, welcoming look for anyone who visits your repository. How does that look to you?
