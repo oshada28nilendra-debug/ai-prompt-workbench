@@ -17,7 +17,7 @@ A full-stack, developer-first workspace for AI Prompt Engineers and Digital Arti
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/YOUR_USERNAME/ai-prompt-workbench.git
+git clone https://github.com/oshada28nilendra-debug/ai-prompt-workbench.git
 cd ai-prompt-workbench
 \`\`\`
 
